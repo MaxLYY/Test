@@ -1,5 +1,5 @@
 
-<font size=72># Java实验报告-字符串实验</font>
+<font size=100 face="黑体" center>Java实验报告-字符串实验</font>
 
 # 一、实验目的
 1.掌握字符串String及其方法的使用  
