@@ -17,20 +17,25 @@
 
 核心代码：  
 
-创建StringBuilder对象，定义一个空的字符串，用append方法定义内容：   
+创建StringBuilder对象，定义一个空的字符串，用append方法定义内容：
+```
 StringBuilder strB = new StringBuilder();  
 String str=" ";  
 strB.append(..)//词的内容  
+```
 
-捕获异常：    
+捕获异常： 
+```
 try{  
 ..  
 }catch(Exception e){  
 System.out.println("发生异常！"+e.toString());  
 e.printStackTrace();  
 }  
+```
 
-判断：    
+判断：
+```
 for (int i=0;i<strB.length();i++){  
 if (i*7+7>strB.length()){  
 str=str+strB.substring(i*7,strB.length());//截取第i*7个字符  
@@ -44,8 +49,10 @@ str=str+strB.substring(i*7,i*7+7)+"。"+"\n";
 }  
 }  
 System.out.println(new StringBuilder(str).toString());  
-   
-查找某个字出现的次数：  
+```
+
+查找某个字出现的次数：
+```
 public static int count(StringBuilder strB,String str2){  
 int count=0;  
 int index=0;  
@@ -55,6 +62,7 @@ count++;
 }  
 return count;  
 }  
+```
 
 运行结果：  
 https://github.com/MaxLYY/Test/blob/master/%E6%8D%95%E8%8E%B7L.PNG  
