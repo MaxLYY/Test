@@ -1,8 +1,8 @@
 
 # Java实验报告四--字符串实验
 
-<font size=100 face="黑体" center></font>
-# 一、实验目的
+<font face="黑体" size=201>一、实验目的</font>
+
 1.掌握字符串String及其方法的使用  
 2.掌握异常处理结构
 # 二、实验要求
