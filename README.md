@@ -55,6 +55,6 @@ for (int i=0;i<strB.length();i++){
 	}  
 
 运行结果：  
-#捕获L.PNG![]()  
+https://github.com/MaxLYY/Test/blob/master/%E6%8D%95%E8%8E%B7L.PNG 
 #四、实验总结  
 
